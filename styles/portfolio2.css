@@ -1,8 +1,107 @@
-
+/* font */
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+}
+
+
+/* shared styles */
+.text-color{
+    color: rgb(204, 43, 118);
+}
+.btn-primary{
+    background-color: rgb(185, 105, 161);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 36px;
+}
+
+.color1{
+    color: rgb(127, 95, 128);
+}
+
+.color2{
+    color: rgb(117, 63, 110);
+}
+.color3{
+    color: rgb(46, 2, 44);
+}
+
+
+/* header styles */
+.header{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+}
+
+
+/* nav styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 35px 226px ;
+}
+
+.nav-title{
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+
+nav ul{
+    display: flex;
+   align-items: center;
+}
+
+
+nav ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-right:  51px;
+}
+
+nav li a{
+    text-decoration: none;
+
+}
+
+
+/* banner styles */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+
+.banner-content{
+    width: 585px;
+    height: 356px;
+}
+
+.banner-greetings{
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+
+.banner-description{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.banner-profile-picture{
+    width: 584px;
+    height: 676px;
 }
