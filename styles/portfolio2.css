@@ -202,3 +202,37 @@ main section{
 .resume-download-cv-btn{
     margin-top: 50px;
 }
+
+
+/* footer styles */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 117px;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    display: block;
+    border: none;
+    padding: 18px 30px;
+    font-size: 16px;
+    height: 64px;
+    width: 461px;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 24px;
+    color: rgb(161, 123, 160);
+}
+  
+.footer-column{
+    width: 50%;
+}
+
+.footer-description{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 562px;
+}
+.icons{
+    margin-top: 30px;
+}
