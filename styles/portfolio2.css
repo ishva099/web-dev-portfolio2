@@ -27,11 +27,11 @@
 }
 
 .color1{
-    color: rgb(127, 95, 128);
+    color: rgb(81, 21, 83);
 }
 
 .color2{
-    color: rgb(117, 63, 110);
+    color: rgb(99, 49, 92);
 }
 .color3{
     color: rgb(46, 2, 44);
@@ -163,4 +163,42 @@ main section{
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+
+/* resume section styles */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-left: 115px;
+    margin-right: 115px;
+}
+
+.resume-column-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(117, 63, 110);
+}
+
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(136, 79, 128);
+    margin-bottom: 10px;
+}
+.experience-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(172, 124, 165);
+    margin-bottom: 20px;
+}
+
+.experience-description{
+    font-size: 16px;
+    color: rgb(134, 110, 131);
+    margin-bottom: 30px;
+}
+.resume-download-cv-btn{
+    margin-top: 50px;
 }
